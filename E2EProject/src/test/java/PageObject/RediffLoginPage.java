@@ -27,7 +27,9 @@ public class RediffLoginPage {
 	@FindBy(xpath="//input[@title='Sign in']")
 	WebElement Signin;
 
-	
+	public WebElement HomeSignin() {
+		return HomeSignin;
+	}
 	public WebElement username() {
 		return username;
 	}

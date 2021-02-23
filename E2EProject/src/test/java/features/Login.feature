@@ -1,5 +1,6 @@
 Feature: feature to test Login functionality
 
+
   Scenario: Check loging is successful with credentials
     Given user is on loging page
     When user enters username and password
